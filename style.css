@@ -135,3 +135,25 @@ input::placeholder {
     font-size: 1.3rem;
     color: #ccc;
 }
+
+
+.about-left,
+.about-middle,
+.about-right {
+    flex-basis: 30%;
+    padding: 1.6rem;
+}
+
+.btn {
+
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
