@@ -66,15 +66,24 @@ header {
 }
 
 .logo h1 {
+    text-decoration: none;
     font-size: 3.2rem;
     color: #4CAF50;
+    letter-spacing: 2px;
+    transition: 0.6s;
     margin: 0;
 }
 
 nav {
-    padding: 2% 8%;
+
+    top: 0;
+    left: 0;
+    width:100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
 }
 
 nav box-icon {
@@ -82,10 +91,16 @@ nav box-icon {
 }
 
 nav ul {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
 }
 
 nav ul li {
+    position: relative;
+    list-style: none;
     display: inline-block;
     margin-left: 2.5rem;
 }
